@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Birthday_Style.css">
-    <link rel="javascript" href="Birthday_Function.js">
+    
     <title>Happy Birthday!!</title>
 </head>
-<body>
-    <div>
+<body style="background-image: url(pinkTulips2.jpg); background-repeat: no-repeat; background-size: cover;">
+    
+    <div id="outerModal" class="mainPage">
+        
         <h1 class="mainMessage">Happy Birthday!!</h1>
-        <button id="popupVid" class="videoPopup">CLICK ME!</button>
+        <button id="openPopupVid" class="videoPopup">CLICK ME!</button>
     </div>
+        
+    <div class="modal" id="modal">
+        <div  class="modal-inner">
+            <h2>Happy Birthday</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis quas cumque in eligendi debitis veniam magnam expedita ipsum nisi, aspernatur culpa officia molestiae, adipisci animi maiores qui inventore doloremque?
+            </p>
+            <button id="closePopupVid" class="videoPopup">Close</button>
+        </div>
+    </div>
+
+    
+    <script src="Birthday_Function.js"></script>
 </body>
 </html>
